@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reconnect Studio | Web and brand design</title>
+  <meta name="description" content="Reconnect Studio designs websites and brand identities for founders and growing businesses." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/">Reconnect Studio</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact" class="btn btn-small">Start a project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Independent web and brand studio</p>
+      <h1>Websites and brands that turn attention into clients.</h1>
+      <p class="lead">Strategy, identity and conversion-focused web design for founders who want to look as good as their work.</p>
+      <a href="#contact" class="btn">Book a discovery call</a>
+    </section>
+
+    <section id="services" class="services">
+      <h2>What we do</h2>
+      <div class="grid">
+        <article><h3>Websites</h3><p>Marketing sites and landing pages built in Framer or code.</p></article>
+        <article><h3>Brand identity</h3><p>Logos, wordmarks, color and type systems.</p></article>
+        <article><h3>Product design</h3><p>App and dashboard UX from flows to final UI.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Have a project in mind?</h2>
+      <form id="contact-form" novalidate>
+        <input name="name" placeholder="Your name" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" rows="4" placeholder="Tell us about the project" required></textarea>
+        <button class="btn" type="submit">Send</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>&copy; Reconnect Studio, Abuja</footer>
+  <script src="main.js"></script>
+</body>
+</html>
